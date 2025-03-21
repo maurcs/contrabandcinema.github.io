@@ -1,0 +1,421 @@
+/* HTML5 ✰ Boilerplate
+ * ==|== normalize ==========================================================
+ */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+audio:not([controls]) { display: none; }
+[hidden] { display: none; }
+
+html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+body { margin: 0; font-size: 13px; line-height: 1.231; }
+body, button, input, select, textarea { font-family: sans-serif; color: #222; }
+
+/*::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
+::selection { background: #fe57a1; color: #fff; text-shadow: none; }*/
+
+a { color: #00e; }
+a:visited { color: #551a8b; }
+a:hover { color: #06e; }
+a:focus { outline: thin dotted; }
+a:hover, a:active { outline: 0; }
+
+abbr[title] { border-bottom: 1px dotted; }
+b, strong { font-weight: bold; }
+blockquote { margin: 1em 40px; }
+dfn { font-style: italic; }
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+ins { background: #ff9; color: #000; text-decoration: none; }
+mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
+pre, code, kbd, samp { font-family: monospace, monospace; _font-family: 'courier new', monospace; font-size: 1em; }
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
+q { quotes: none; }
+q:before, q:after { content: ""; content: none; }
+small { font-size: 85%; }
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
+dd { margin: 0 0 0 40px; }
+nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
+img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+svg:not(:root) { overflow: hidden; }
+figure { margin: 0; }
+
+form { margin: 0; }
+fieldset { border: 0; margin: 0; padding: 0; }
+label { cursor: pointer; }
+legend { border: 0; *margin-left: -7px; padding: 0; }
+button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; }
+button, input { line-height: normal; *overflow: visible; }
+table button, table input { *overflow: auto; }
+button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; }
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; }
+input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+textarea { overflow: auto; vertical-align: top; resize: vertical; }
+input:valid, textarea:valid {  }
+input:invalid, textarea:invalid { background-color: #f0dddd; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+td { vertical-align: top; }
+
+
+/* ==|== primary styles =====================================================
+   Author: 
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==|== non-semantic helper classes ======================================== */
+.ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; }
+.ir br { display: none; }
+.hidden { display: none !important; visibility: hidden; }
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+.invisible { visibility: hidden; }
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+
+/* ==|== media queries ====================================================== */
+
+@media only screen and (min-width: 480px) {
+
+
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+
+
+/* ==|== print styles ======================================================= */
+ 
+@media print {
+  * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } 
+  a, a:visited { text-decoration: underline; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; } 
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; }
+  tr, img { page-break-inside: avoid; }
+  img { max-width: 100% !important; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3 { page-break-after: avoid; }
+}
+
+body{
+  background:url('/images/Contraband-Site-BG.jpg') top center repeat #7e7e7e;
+}
+
+h1{
+  margin:0;
+  padding:0;
+}
+
+
+h2{
+	font-family:"Arial Black", Arial, sans-serif;
+}
+
+#container{
+  margin:0 auto;
+  padding:10px;
+  font-family:Georgia, "Times New Roman", serif;
+  font-size:15px;
+  color:#454545;
+  background: url(/images/spot.png);
+}
+
+a, a:visited{
+  text-decoration:underline;
+  color:#212121;
+}
+a:hover{
+  color:#010101;
+}
+
+header{
+	background:url(/images/grain.jpg) center repeat;
+	width:100%;
+	padding:15px 0;
+}
+header .header_container{
+  width:960px;
+  margin:0 auto;
+  position:relative;
+}
+header .header_logo{}
+
+h1{
+}
+
+h1{
+  display:block;
+  float:left;
+  margin-right:10px;
+  height:80px;
+  width:155px;
+}
+
+h1 a{
+  display:block;
+  height:80px;
+  width:155px;
+  text-indent:-9999px;
+  background: url(/images/contraband_logo_v03.png) no-repeat 0 0;
+}
+
+header p{
+  margin:0;
+  font-size:18px;
+  letter-spacing:1px;
+  color:#FEFEFE;
+  text-shadow: 2px 2px #000;
+}
+
+header #main_nav{
+	padding:0;
+	list-style-type:none;
+}
+
+#main_nav{
+  margin:5px 0;
+}
+
+#main_nav li{
+	padding:3px 3px;
+	margin:5px 0px;
+	display:block;
+	float:left;
+}
+
+#main_nav a{
+	font-family:"Arial Black", Arial, sans-serif;
+	font-weight:bold;
+	font-size:16px;
+	background:#333;
+	padding:3px 5px;
+	color:#FEFEFE;
+	text-decoration:none;
+}
+
+#main_nav a:hover{
+	background:#454545;
+}
+
+#main{
+  background:#ededed;
+	width:960px;
+	padding:10px;
+	margin:5px auto;
+}
+
+h2{
+	text-transform:uppercase;
+}
+
+.event{
+  margin-bottom:25px;
+}
+
+.event h2{
+  font-size:15px;
+  padding:0;
+  margin:0 0 10px 0;
+}
+
+.event h2 span{
+  background:#1d1d1d;
+  color:#FFF;
+  padding:3px;
+  line-height: 27px;
+}
+
+.event h3{
+  margin:5px 0;
+  padding:0;
+  font-size:15px;
+  font-weight:normal;
+}
+
+.event h4{
+  text-transform:uppercase;
+  font-weight:bold;
+}
+
+.event .location{
+  margin:5px 0;
+  padding:0;
+}
+
+.event h4{
+  font-weight:bold;
+  font-size:15px;
+  margin:10px 0;
+  padding:0;
+}
+
+.event p{
+  margin:10px 0;
+}
+
+.event ul li span{
+  text-transform:uppercase;
+}
+.event .show_image{
+}
+.event .film_still{
+  margin:0 0 10px;
+}
+.event .photo_credit{
+  font-size:10px;
+  text-align:right;
+  margin:0px;
+  padding-right:50px;
+}
+.event .film_stills{
+  text-align:center;
+}
+.event .film_stills img{
+  margin:10px 0;
+  border:solid 1px #000033;
+}
+
+img.flyer{
+  border:solid 1px #454545;
+}
+
+.co-presenter{
+  width:200px;
+  margin: 0 0 15px 15px;
+  float:right;
+  text-align:center;
+  font-size:13px;
+  font-weight:bold;
+}
+
+.map_directions{
+	margin: 0 0 15px 15px;
+	float:right;
+}
+
+dl.bios dt{
+  font-weight:bold;
+}
+dl.bios dd{
+  margin:0;
+  padding:0;
+  margin-bottom:10px;
+}
+dl.bios dt span{
+  font-weight:normal;
+  font-size:90%;
+}
+
+
+
+#mc_embed_signup{
+	clear:left;
+	background:#fefefe;
+	padding:10px 15px;
+	border:solid 1px #454545;
+}
+.mc-field-group{
+	font-size:12px;
+	padding-top:10px;
+}
+#mc-radio-fields{
+	padding:0;
+	margin:0;
+	list-style-type:none;
+}	
+#mc-radio-fields li{
+	float:left;
+	padding-right:10px;
+}
+#mc-radio-fields li input{
+	margin-right:3px;
+}
+/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+
+/* show 104 style */
+#show_104 dd{
+  margin-left:0px;
+  text-align:justify;
+}
+
+#show_104 dd img{
+  margin:0 0 5px 15px;
+  border:solid #999 1px;
+}
+
+#show_104 dt{
+  clear:right;
+}
+
+
+.full_body #container{
+  background:white;
+  width:980;
+  padding:20px;
+}
+
+.green{
+  color:green;
+}
+
+.red{
+  color:red;
+}
+
+/* social links */
+#social_links a{
+  background:url('/images/contraband-social-links-sprite-over.png') no-repeat;
+  display:block;
+  float:left;
+  width:25px;
+  height:25px;
+  text-indent:-9999px;
+  margin:0 10px 0px 0;
+  padding:0;
+}
+#social_links a:hover{
+  background:url('/images/contraband-social-links-sprite.png') no-repeat;
+}
+#social_links a#facebook_link{
+  background-position:0 0;
+}
+#social_links a#instagram_link{
+  background-position:0 -60px;
+}
+#social_links a#twitter_link{
+  background-position:0 -30px;
+}
+
+/* signup */
+#mc_embed_signup{
+  position:absolute;
+  top:25px;
+  right:0;
+}

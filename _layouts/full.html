@@ -1,0 +1,51 @@
+
+<!doctype html> 
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]--> 
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]--> 
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]--> 
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]--> 
+<head> 
+  <meta charset="utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+ 
+  <title>Contraband Cinema -- {{page.title}}</title> 
+  <meta name="description" content=""> 
+  <meta name="author" content=""> 
+ 
+  <meta name="viewport" content="width=device-width,initial-scale=1"> 
+ 
+  <!-- CSS concatenated and minified via ant build script--> 
+  <link rel="stylesheet" href="/stylesheets/style.css"> 
+  <!-- end CSS--> 
+  <link href='/images/favicon.png' rel='icon' />
+ 
+  <!-- <script src="js/libs/modernizr-2.0.6.min.js"></script> --> 
+</head> 
+ 
+<body class="full_body"> 
+ 
+  <div id="container"> 
+      {{ content }}
+  </div> <!--! end of #container -->  
+  
+  <script type="text/javascript"> 
+ 
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-25744619-1']);
+    _gaq.push(['_trackPageview']);
+ 
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+ 
+  </script> 
+  <!--[if lt IE 7 ]>
+    <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+    <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+  <![endif]--> 
+  
+</body> 
+</html> 
+ 
